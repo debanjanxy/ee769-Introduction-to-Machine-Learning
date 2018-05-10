@@ -1,0 +1,8 @@
+\section{Results}
+\subsection{Dataset}
+We have used the Tensorflow audio dataset \cite{b4} for our project. It has 30 classes of words in it and each class has nearly 1700 samples. But as we were participating in the Kaggle competition where the task was to detect 10 classes of words. The classes were ``bed, bird, cat, dog, on, off, house, yes, no''. We had used 100 samples from each class to make our test data set. So our training data set has ~17000 samples and test dataset has ~1000 samples. 
+\subsection{Accuracy}
+The accuracy was measured using the formula: 
+$$Accuracy=\sum_{i=1}^{K} \frac{TP_i}{N}$$
+where $TP_i$ is the number of true positives of the $i^{th}$ class, $N$ is the total number of samples and $K$ is the total number of classes which is 10 in our project.
+The test accuracy of our model was \textbf{78.23\%} on the above mentioned test data and training accuracy was \textbf{97.4\%} on the above mentioned training data set. 
